@@ -7,6 +7,9 @@ let result2 = path.resolve("foo/bar","/baz");
 
 let result3 = path.resolve("foo/bar","/tem/file")
 
+let result4 = path.resolve(__dirname,"../");
+
 console.log(result1);
 console.log(result2);
 console.log(result3);
+console.log(result4);
